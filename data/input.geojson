@@ -1,0 +1,126 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Зона застройки",
+        "id": "buildable_area"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.615,
+              55.755
+            ],
+            [
+              37.625,
+              55.755
+            ],
+            [
+              37.625,
+              55.760
+            ],
+            [
+              37.615,
+              55.760
+            ],
+            [
+              37.615,
+              55.755
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Лесная зона",
+        "restriction": "no_build",
+        "id": "forest"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.620,
+              55.757
+            ],
+            [
+              37.623,
+              55.757
+            ],
+            [
+              37.623,
+              55.759
+            ],
+            [
+              37.620,
+              55.759
+            ],
+            [
+              37.620,
+              55.757
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Дорога",
+        "restriction": "no_build",
+        "id": "road"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            37.615,
+            55.756
+          ],
+          [
+            37.625,
+            55.756
+          ]
+        ]
+      }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Водоем",
+            "restriction": "no_build",
+            "id": "water"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                      37.617,
+                      55.758
+                    ],
+                   [
+                      37.619,
+                      55.758
+                    ],
+                   [
+                      37.618,
+                      55.759
+                   ],
+                  [
+                      37.617,
+                      55.758
+                  ]
+                ]
+            ]
+        }
+    }
+  ]
+}
